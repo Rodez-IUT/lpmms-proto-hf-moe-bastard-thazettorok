@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<item
+    android:id="@+id/affichage"
+    android:title="AFFICHAGE :"/>
+
+
+    <item
+        android:id="@+id/listes"
+        android:title="LISTES :"/>
+
+    <item
+        android:id="@+id/etudiants"
+        android:title="ETUDIANTS :"/>
+
+    <item
+        android:id="@+id/salles"
+        android:title="SALLES :"/>
+
+    <item
+        android:id="@+id/enseignants"
+        android:title="ENSEIGNANTS :"/>
+
+    <item
+        android:id="@+id/reglages"
+        android:title="REGLAGES :"/>
+
+    <menu>
+        <item
+            android:id="@+id/Notifications"
+            android:title="Notifications: ON/OFF"/>
+            />
+    </menu>
+
+
+</menu>

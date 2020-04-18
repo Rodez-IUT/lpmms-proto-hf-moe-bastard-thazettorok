@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">IHM</string>
+    <string name="langue">Fr/En</string>
+    <string name="aide">"?"</string>
+    <string name="Login">IDENTIFIANT</string>
+    <string name="Password">MOT DE PASSE</string>
+    <string name="Valider">SE CONNECTER</string>
+
+    <string name="date1">09 Mars</string>
+    <string name="date2">16 Mars</string>
+    <string name="date3">23 Mars</string>
+    <string name="date4">30 Mars</string>
+    <string name="date5">06 Avril</string>
+
+    <string name="drawerOpen">drawerOpen</string>
+    <string name="drawerClose">drawerClose</string>
+    <string name="lancer">Lancer l\'appli</string>
+</resources>

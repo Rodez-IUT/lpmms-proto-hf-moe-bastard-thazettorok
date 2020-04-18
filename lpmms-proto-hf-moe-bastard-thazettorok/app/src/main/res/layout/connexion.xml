@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="10dip"
+    android:orientation="vertical"
+    android:background="@drawable/utcapitole"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="379dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="68dp"
+            android:layout_height="44dp"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/arrondirangle"
+            android:backgroundTint="@color/colorBouton"
+            android:text="@string/langue"
+            android:textColor="@color/texte" />
+
+        <Button
+            android:layout_width="32dp"
+            android:layout_height="38dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="275dip"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/roudablebutton"
+            android:backgroundTint="@color/colorBouton"
+            android:text="@string/aide"
+            android:textColor="@color/texte" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="250dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:src="@drawable/iconesutilisateur"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/texte"
+            android:textColorHint="@color/texte"
+            android:hint="@string/Login"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:src="@drawable/iconepassword"
+           />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/texte"
+            android:textColorHint="@color/texte"
+            android:hint="@string/Password"
+          />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/arrondirangle"
+        android:backgroundTint="@color/colorBouton"
+        android:textColor="@color/texte"
+        android:text="@string/Valider"
+        android:id="@+id/connexion"/>
+</LinearLayout >

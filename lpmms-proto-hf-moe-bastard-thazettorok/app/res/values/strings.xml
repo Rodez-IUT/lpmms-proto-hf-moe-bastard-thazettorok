@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AgendaUT1</string>
+
+    <string name="langue">Fr/En</string>
+    <string name="aide">"?"</string>
+    <string name="Login">IDENTIFIANT</string>
+    <string name="Password">MOT DE PASSE</string>
+    <string name="Valider">SE CONNECTER</string>
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dip"
+    android:paddingTop="10dip"
+    android:paddingRight="10dip"
+    android:paddingBottom="10dip"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="50dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/arrondirangle"
+        android:backgroundTint="@color/colorBouton"
+        android:text="@string/langue"
+        android:textColor="@color/texte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="26dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/roudablebutton"
+        android:backgroundTint="@color/colorBouton"
+        android:text="@string/aide"
+        android:textColor="@color/texte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/btn5" />
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="75dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/arrondirangle"
+        android:backgroundTint="@color/colorBoutonDate"
+        android:text="@string/date1"
+        android:textColor="@color/texte"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/btn2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emploi" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="75dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="153dp"
+        android:background="@drawable/arrondirangle"
+        android:backgroundTint="@color/colorBoutonDate"
+        android:text="@string/date2"
+        android:textColor="@color/texte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn3"
+        app:layout_constraintStart_toEndOf="@+id/btn1"
+        app:layout_constraintTop_toBottomOf="@+id/emploi" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="75dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="153dp"
+        android:background="@drawable/arrondirangle"
+        android:backgroundTint="@color/colorBoutonDate"
+        android:text="@string/date3"
+        android:textColor="@color/texte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn4"
+        app:layout_constraintStart_toEndOf="@+id/btn2"
+        app:layout_constraintTop_toBottomOf="@+id/emploi" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="75dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="153dp"
+        android:background="@drawable/arrondirangle"
+        android:backgroundTint="@color/colorBoutonDate"
+        android:text="@string/date4"
+        android:textColor="@color/texte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn5"
+        app:layout_constraintStart_toEndOf="@+id/btn3"
+        app:layout_constraintTop_toBottomOf="@+id/emploi" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="75dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="3dp"
+        android:background="@drawable/arrondirangle"
+        android:backgroundTint="@color/colorBoutonDate"
+        android:text="@string/date5"
+        android:textColor="@color/texte"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn4"
+        app:layout_constraintTop_toBottomOf="@+id/emploi" />
+
+
+    <ImageView
+        android:id="@+id/emploi"
+        android:layout_width="376dp"
+        android:layout_height="364dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:src="@drawable/emploi"
+        app:layout_constraintBottom_toTopOf="@+id/btn3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="28dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/emploi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nomPrenom"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logout" />
+
+    <TextView
+        android:id="@+id/nomPrenom"
+
+        android:layout_width="wrap_content"
+        android:layout_height="20dip"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:text="Bastard Julien"
+        android:textColor="#050505"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/emploi"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
